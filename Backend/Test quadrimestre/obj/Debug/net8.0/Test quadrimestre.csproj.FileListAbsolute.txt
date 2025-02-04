@@ -1,0 +1,32 @@
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\bin\Debug\net8.0\appsettings.json
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\bin\Debug\net8.0\Test quadrimestre.exe
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\bin\Debug\net8.0\Test quadrimestre.deps.json
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\bin\Debug\net8.0\Test quadrimestre.runtimeconfig.json
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\bin\Debug\net8.0\Test quadrimestre.dll
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\bin\Debug\net8.0\Test quadrimestre.pdb
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\Test quadrimestre.csproj.AssemblyReference.cache
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\Test quadrimestre.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\Test quadrimestre.AssemblyInfoInputs.cache
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\Test quadrimestre.AssemblyInfo.cs
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\Test quadrimestre.csproj.CoreCompileInputs.cache
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\Test quadrimestre.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\Test quadrimestre.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\staticwebassets\msbuild.Test quadrimestre.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\staticwebassets\msbuild.build.Test quadrimestre.props
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Test quadrimestre.props
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Test quadrimestre.props
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\scopedcss\bundle\Test quadrimestre.styles.css
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\Test qua.3E37057A.Up2Date
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\Test quadrimestre.dll
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\refint\Test quadrimestre.dll
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\Test quadrimestre.pdb
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\Test quadrimestre.genruntimeconfig.cache
+C:\Users\Nick\source\repos\Test quadrimestre\Test quadrimestre\obj\Debug\net8.0\ref\Test quadrimestre.dll

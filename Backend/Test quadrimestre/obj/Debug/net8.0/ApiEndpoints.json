@@ -1,0 +1,79 @@
+[
+  {
+    "ContainingType": "Test_quadrimestre.Controllers.PersonaController",
+    "Method": "GetPersone",
+    "RelativePath": "api/persone",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Test_quadrimestre.Dto.Persona, Test quadrimestre, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Test_quadrimestre.Controllers.PersonaController",
+    "Method": "AddPersona",
+    "RelativePath": "api/persone",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "persona",
+        "Type": "Test_quadrimestre.Dto.Persona",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Test_quadrimestre.Controllers.PersonaController",
+    "Method": "UpdatePersona",
+    "RelativePath": "api/persone",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "persona",
+        "Type": "Test_quadrimestre.Dto.Persona",
+        "IsRequired": true
+      },
+      {
+        "Name": "valore",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
