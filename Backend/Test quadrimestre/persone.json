@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "9d739ea5-b305-45e5-a388-c85640e1fa8b",
+    "Nome": "Lello",
+    "Cognome": "Laforgia",
+    "DataDiNascita": "2005-11-06T23:00:00Z",
+    "Dominio": "Studente",
+    "Email": null
+  },
+  {
+    "Id": "58f89927-0be5-4077-becc-4b0f1d65a9cf",
+    "Nome": "Lello",
+    "Cognome": "Laforgia",
+    "DataDiNascita": "2005-11-06T23:00:00Z",
+    "Dominio": "Studente",
+    "Email": null
+  },
+  {
+    "Id": "7cb9ebd3-6f54-49b1-b0cb-2de993f28c7d",
+    "Nome": "Lello",
+    "Cognome": "Laforgia",
+    "DataDiNascita": "2005-11-06T23:00:00Z",
+    "Dominio": "Studente",
+    "Email": null
+  },
+  {
+    "Id": "025d0ca6-850a-4009-ad5e-4a452d20df09",
+    "Nome": "Lello",
+    "Cognome": "Laforgia",
+    "DataDiNascita": "2005-11-06T23:00:00Z",
+    "Dominio": "Studente",
+    "Email": null
+  }
+]

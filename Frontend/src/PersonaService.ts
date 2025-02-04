@@ -1,14 +1,15 @@
+import { Studente } from "./Studente";
+import { Persona } from "./Persona";
+
 class PersonaService {
     async getPersone(): Promise<Persona[] | null> {
         try {
-            const response = await fetch('http://localhost:5041/PersonaController/GetPersone');
+            const response = await fetch('http://localhost:5041/persone');
             if (!response.ok) {
                 throw new Error('Errore nel recupero delle persone');
             }
-            else {
-                console.log("OK")
-            }
-            return await response.json();
+            const risposta = await response.json();
+            console.log(risposta)
         } catch (e) {
             console.log("Controller non attivo")
             return Promise.resolve(null)
@@ -16,7 +17,8 @@ class PersonaService {
     }
 
     async addPersona(persona: Persona): Promise<Persona> {
-        const response = await fetch('http://localhost:5041/PersonaController/AddPersona', {
+        console.log(persona)
+        const response = await fetch('http://localhost:5041/persone', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -30,7 +32,7 @@ class PersonaService {
     }
 
     async updatePersona(persona: Persona): Promise<void> {
-        const response = await fetch('http://localhost:5041/PersonaController/UpdatePersona', {
+        const response = await fetch('http://localhost:5041/persone', {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
@@ -43,7 +45,7 @@ class PersonaService {
     }
 
     async deletePersona(id: string): Promise<void> {
-        const response = await fetch(`http://localhost:5041/PersonaController/DeletePersona/${id}`, {
+        const response = await fetch(`http://localhost:5041/persone`, {
             method: 'DELETE',
         });
         if (!response.ok) {
@@ -52,4 +54,7 @@ class PersonaService {
     }
 }
 const prova = new PersonaService()
-console.log(prova.getPersone())
+
+const persona1 = new Studente("Lello", "Laforgia", new Date(2005, 10, 7))
+prova.addPersona(persona1)
+prova.getPersone()

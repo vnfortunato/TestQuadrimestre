@@ -1,4 +1,5 @@
-class Docente extends Persona {
+import { Persona } from "./Persona";
+export class Docente extends Persona {
     override GetNominativo(): string {
         return `Docente: ${super.GetNominativo()}`
     }

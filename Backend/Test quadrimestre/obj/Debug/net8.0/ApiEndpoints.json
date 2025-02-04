@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "Test_quadrimestre.Controllers.PersonaController",
+    "ContainingType": "PersonaController",
     "Method": "GetPersone",
-    "RelativePath": "api/persone",
+    "RelativePath": "persone",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -20,9 +20,9 @@
     ]
   },
   {
-    "ContainingType": "Test_quadrimestre.Controllers.PersonaController",
+    "ContainingType": "PersonaController",
     "Method": "AddPersona",
-    "RelativePath": "api/persone",
+    "RelativePath": "persone",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -36,9 +36,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Test_quadrimestre.Controllers.PersonaController",
+    "ContainingType": "PersonaController",
     "Method": "UpdatePersona",
-    "RelativePath": "api/persone",
+    "RelativePath": "persone",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -47,19 +47,14 @@
         "Name": "persona",
         "Type": "Test_quadrimestre.Dto.Persona",
         "IsRequired": true
-      },
-      {
-        "Name": "valore",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Test_quadrimestre.Controllers.PersonaController",
+    "ContainingType": "PersonaController",
     "Method": "DeletePersona",
-    "RelativePath": "api/persone",
+    "RelativePath": "persone",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

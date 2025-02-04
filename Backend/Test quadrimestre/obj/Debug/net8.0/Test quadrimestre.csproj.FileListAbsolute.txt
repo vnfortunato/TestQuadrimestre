@@ -63,3 +63,7 @@ C:\Users\Nick\Desktop\Test Quadrimestre TS\Backend\Test quadrimestre\obj\Debug\n
 C:\Users\Nick\Desktop\Test Quadrimestre TS\Backend\Test quadrimestre\obj\Debug\net8.0\Test quadrimestre.pdb
 C:\Users\Nick\Desktop\Test Quadrimestre TS\Backend\Test quadrimestre\obj\Debug\net8.0\Test quadrimestre.genruntimeconfig.cache
 C:\Users\Nick\Desktop\Test Quadrimestre TS\Backend\Test quadrimestre\obj\Debug\net8.0\ref\Test quadrimestre.dll
+C:\Users\Nick\Desktop\Test Quadrimestre TS\Backend\Test quadrimestre\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\Nick\Desktop\Test Quadrimestre TS\Backend\Test quadrimestre\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Nick\Desktop\Test Quadrimestre TS\Backend\Test quadrimestre\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\Nick\Desktop\Test Quadrimestre TS\Backend\Test quadrimestre\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll

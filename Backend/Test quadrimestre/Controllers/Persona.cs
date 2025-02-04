@@ -1,33 +1,45 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
+using System.Text.Json.Serialization;
+using System.Text.Json;
 using Test_quadrimestre.Dto;
 
-namespace Test_quadrimestre.Controllers;
-
-[ApiController]
-[Route("api")]
 public class PersonaController : ControllerBase
 {
+    public static List<Persona> listaPersone = new List<Persona>();
 
-   public List<Persona> listaPersone = new List<Persona>();
-
-    Persona persona1 = new Persona()
-    {
-        Id = Guid.NewGuid(),
-        Nome = "Lello",
-        Cognome = "Laforgia",
-        DataDiNascita = new DateTime(2005, 10, 07),
-        Dominio = Dominio.Studente,
-        Email = "asdsa@gmail.com"
-    };
-    
-    
-
+    // Carica le persone solo una volta all'inizio
     public PersonaController()
     {
-        listaPersone.Add(persona1);
+        CaricaPersone();
     }
 
+    public static void SalvaPersone()
+    {
+        JsonSerializerOptions options = new JsonSerializerOptions
+        {
+            WriteIndented = true,
+            Converters = { new JsonStringEnumConverter() }
+        };
+        string jsonString = JsonSerializer.Serialize(listaPersone, options);
+        System.IO.File.WriteAllText("persone.json", jsonString);
+    }
+
+    public static List<Persona> CaricaPersone()
+    {
+        if (System.IO.File.Exists("persone.json"))
+        {
+            JsonSerializerOptions options = new JsonSerializerOptions
+            {
+                WriteIndented = true,
+                Converters = { new JsonStringEnumConverter() }
+            };
+            string jsonFromFile = System.IO.File.ReadAllText("persone.json");
+            List<Persona>? prodottiFile = JsonSerializer.Deserialize<List<Persona>>(jsonFromFile, options) ?? new List<Persona>();
+            listaPersone = prodottiFile;
+            return prodottiFile;
+        }
+        return listaPersone;
+    }
 
     [HttpGet("persone")]
     public IEnumerable<Persona> GetPersone()
@@ -38,22 +50,18 @@ public class PersonaController : ControllerBase
     [HttpPost("persone")]
     public IActionResult AddPersona([FromBody] Persona persona)
     {
-        if (persona == null)
-        {
-            return BadRequest("Persona non valida");
-        }
-
         if (persona.Id == Guid.Empty)
         {
             persona.Id = Guid.NewGuid();
         }
 
         listaPersone.Add(persona);
+        SalvaPersone();
         return Ok(true);
     }
 
     [HttpPut("persone")]
-    public IActionResult UpdatePersona([FromBody] Persona persona, [FromQuery] string valore)
+    public IActionResult UpdatePersona([FromBody] Persona persona)
     {
         var giaEsistente = listaPersone.FirstOrDefault(p => p.Id == persona.Id);
         if (giaEsistente == null)
@@ -66,6 +74,7 @@ public class PersonaController : ControllerBase
         giaEsistente.DataDiNascita = persona.DataDiNascita;
         giaEsistente.Dominio = persona.Dominio;
         giaEsistente.Email = persona.Email;
+        SalvaPersone();
 
         return Ok(true);
     }
@@ -80,6 +89,7 @@ public class PersonaController : ControllerBase
         }
 
         listaPersone.Remove(persona);
+        SalvaPersone();
         return Ok(true);
     }
 }

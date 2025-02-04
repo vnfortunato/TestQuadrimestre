@@ -1,6 +1,7 @@
 // Classe astratta che rappresenta un blueprint di una Persona
-abstract class Persona {
-    constructor(private id: number, protected nome: string, protected cognome: string, private DataDiNascita: Date) { }
+export abstract class Persona {
+    constructor(protected nome: string, protected cognome: string, private DataDiNascita: Date, private id?: string) { 
+    }
 
     // Metodo che restituisce l'email dell'istanza corrente
     get email() {
