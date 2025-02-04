@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Test quadrimestre")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a80988ee33be1c4025b256a85ef7809200e0d5c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Test quadrimestre")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Test quadrimestre")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

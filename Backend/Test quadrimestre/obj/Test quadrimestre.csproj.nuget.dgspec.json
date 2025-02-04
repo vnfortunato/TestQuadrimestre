@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nick\\source\\repos\\Test quadrimestre\\Test quadrimestre\\Test quadrimestre.csproj": {}
+    "C:\\Users\\Nick\\Desktop\\Test Quadrimestre TS\\Backend\\Test quadrimestre\\Test quadrimestre.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nick\\source\\repos\\Test quadrimestre\\Test quadrimestre\\Test quadrimestre.csproj": {
+    "C:\\Users\\Nick\\Desktop\\Test Quadrimestre TS\\Backend\\Test quadrimestre\\Test quadrimestre.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nick\\source\\repos\\Test quadrimestre\\Test quadrimestre\\Test quadrimestre.csproj",
+        "projectUniqueName": "C:\\Users\\Nick\\Desktop\\Test Quadrimestre TS\\Backend\\Test quadrimestre\\Test quadrimestre.csproj",
         "projectName": "Test quadrimestre",
-        "projectPath": "C:\\Users\\Nick\\source\\repos\\Test quadrimestre\\Test quadrimestre\\Test quadrimestre.csproj",
+        "projectPath": "C:\\Users\\Nick\\Desktop\\Test Quadrimestre TS\\Backend\\Test quadrimestre\\Test quadrimestre.csproj",
         "packagesPath": "C:\\Users\\Nick\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nick\\source\\repos\\Test quadrimestre\\Test quadrimestre\\obj\\",
+        "outputPath": "C:\\Users\\Nick\\Desktop\\Test Quadrimestre TS\\Backend\\Test quadrimestre\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nick\\AppData\\Roaming\\NuGet\\NuGet.Config",

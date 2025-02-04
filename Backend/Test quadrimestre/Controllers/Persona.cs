@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using Test_quadrimestre.Dto;
 
 namespace Test_quadrimestre.Controllers;
@@ -35,19 +36,50 @@ public class PersonaController : ControllerBase
     }
 
     [HttpPost("persone")]
-    public bool AddPersona(Persona persona)
+    public IActionResult AddPersona([FromBody] Persona persona)
     {
+        if (persona == null)
+        {
+            return BadRequest("Persona non valida");
+        }
+
         if (persona.Id == Guid.Empty)
         {
             persona.Id = Guid.NewGuid();
         }
-        return true;
+
+        listaPersone.Add(persona);
+        return Ok(true);
     }
 
     [HttpPut("persone")]
-    public bool UpdatePersona([FromBody] Persona persona, [FromQuery] string valore)
+    public IActionResult UpdatePersona([FromBody] Persona persona, [FromQuery] string valore)
     {
-        return true;
+        var giaEsistente = listaPersone.FirstOrDefault(p => p.Id == persona.Id);
+        if (giaEsistente == null)
+        {
+            return NotFound("Persona non trovata");
+        }
+
+        giaEsistente.Nome = persona.Nome;
+        giaEsistente.Cognome = persona.Cognome;
+        giaEsistente.DataDiNascita = persona.DataDiNascita;
+        giaEsistente.Dominio = persona.Dominio;
+        giaEsistente.Email = persona.Email;
+
+        return Ok(true);
     }
-   
+
+    [HttpDelete("persone")]
+    public IActionResult DeletePersona([FromQuery] Guid id)
+    {
+        var persona = listaPersone.FirstOrDefault(p => p.Id == id);
+        if (persona == null)
+        {
+            return NotFound("Persona non trovata");
+        }
+
+        listaPersone.Remove(persona);
+        return Ok(true);
+    }
 }

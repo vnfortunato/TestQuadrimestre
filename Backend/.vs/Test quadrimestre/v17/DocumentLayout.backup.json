@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nick\\source\\repos\\Test quadrimestre\\",
+  "WorkspaceRootPath": "C:\\Users\\Nick\\Desktop\\Test Quadrimestre TS\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D774D-F40F-46E8-B953-341B4E1B5C8C}|Test quadrimestre\\Test quadrimestre.csproj|c:\\users\\nick\\source\\repos\\test quadrimestre\\test quadrimestre\\controllers\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A4D774D-F40F-46E8-B953-341B4E1B5C8C}|Test quadrimestre\\Test quadrimestre.csproj|c:\\users\\nick\\desktop\\test quadrimestre ts\\backend\\test quadrimestre\\controllers\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A4D774D-F40F-46E8-B953-341B4E1B5C8C}|Test quadrimestre\\Test quadrimestre.csproj|solutionrelative:test quadrimestre\\controllers\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D774D-F40F-46E8-B953-341B4E1B5C8C}|Test quadrimestre\\Test quadrimestre.csproj|c:\\users\\nick\\source\\repos\\test quadrimestre\\test quadrimestre\\dto\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A4D774D-F40F-46E8-B953-341B4E1B5C8C}|Test quadrimestre\\Test quadrimestre.csproj|c:\\users\\nick\\desktop\\test quadrimestre ts\\backend\\test quadrimestre\\dto\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A4D774D-F40F-46E8-B953-341B4E1B5C8C}|Test quadrimestre\\Test quadrimestre.csproj|solutionrelative:test quadrimestre\\dto\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D774D-F40F-46E8-B953-341B4E1B5C8C}|Test quadrimestre\\Test quadrimestre.csproj|c:\\users\\nick\\source\\repos\\test quadrimestre\\test quadrimestre\\dto\\dominio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A4D774D-F40F-46E8-B953-341B4E1B5C8C}|Test quadrimestre\\Test quadrimestre.csproj|c:\\users\\nick\\desktop\\test quadrimestre ts\\backend\\test quadrimestre\\dto\\dominio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A4D774D-F40F-46E8-B953-341B4E1B5C8C}|Test quadrimestre\\Test quadrimestre.csproj|solutionrelative:test quadrimestre\\dto\\dominio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D774D-F40F-46E8-B953-341B4E1B5C8C}|Test quadrimestre\\Test quadrimestre.csproj|c:\\users\\nick\\source\\repos\\test quadrimestre\\test quadrimestre\\test quadrimestre.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{3A4D774D-F40F-46E8-B953-341B4E1B5C8C}|Test quadrimestre\\Test quadrimestre.csproj|c:\\users\\nick\\desktop\\test quadrimestre ts\\backend\\test quadrimestre\\test quadrimestre.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{3A4D774D-F40F-46E8-B953-341B4E1B5C8C}|Test quadrimestre\\Test quadrimestre.csproj|solutionrelative:test quadrimestre\\test quadrimestre.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\Nick\\source\\repos\\Test quadrimestre\\Test quadrimestre\\Controllers\\Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Nick\\Desktop\\Test Quadrimestre TS\\Backend\\Test quadrimestre\\Controllers\\Persona.cs",
               "RelativeDocumentMoniker": "Test quadrimestre\\Controllers\\Persona.cs",
-              "ToolTip": "C:\\Users\\Nick\\source\\repos\\Test quadrimestre\\Test quadrimestre\\Controllers\\Persona.cs",
+              "ToolTip": "C:\\Users\\Nick\\Desktop\\Test Quadrimestre TS\\Backend\\Test quadrimestre\\Controllers\\Persona.cs",
               "RelativeToolTip": "Test quadrimestre\\Controllers\\Persona.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T13:15:29.924Z",
               "EditorCaption": ""
@@ -45,39 +45,36 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\Nick\\source\\repos\\Test quadrimestre\\Test quadrimestre\\Dto\\Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Nick\\Desktop\\Test Quadrimestre TS\\Backend\\Test quadrimestre\\Dto\\Persona.cs",
               "RelativeDocumentMoniker": "Test quadrimestre\\Dto\\Persona.cs",
-              "ToolTip": "C:\\Users\\Nick\\source\\repos\\Test quadrimestre\\Test quadrimestre\\Dto\\Persona.cs",
+              "ToolTip": "C:\\Users\\Nick\\Desktop\\Test Quadrimestre TS\\Backend\\Test quadrimestre\\Dto\\Persona.cs",
               "RelativeToolTip": "Test quadrimestre\\Dto\\Persona.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T08:31:42.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T08:31:42.329Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Dominio.cs",
-              "DocumentMoniker": "C:\\Users\\Nick\\source\\repos\\Test quadrimestre\\Test quadrimestre\\Dto\\Dominio.cs",
+              "DocumentMoniker": "C:\\Users\\Nick\\Desktop\\Test Quadrimestre TS\\Backend\\Test quadrimestre\\Dto\\Dominio.cs",
               "RelativeDocumentMoniker": "Test quadrimestre\\Dto\\Dominio.cs",
-              "ToolTip": "C:\\Users\\Nick\\source\\repos\\Test quadrimestre\\Test quadrimestre\\Dto\\Dominio.cs",
+              "ToolTip": "C:\\Users\\Nick\\Desktop\\Test Quadrimestre TS\\Backend\\Test quadrimestre\\Dto\\Dominio.cs",
               "RelativeToolTip": "Test quadrimestre\\Dto\\Dominio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T13:11:58.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T13:11:58.252Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Test quadrimestre",
-              "DocumentMoniker": "C:\\Users\\Nick\\source\\repos\\Test quadrimestre\\Test quadrimestre\\Test quadrimestre.csproj",
+              "DocumentMoniker": "C:\\Users\\Nick\\Desktop\\Test Quadrimestre TS\\Backend\\Test quadrimestre\\Test quadrimestre.csproj",
               "RelativeDocumentMoniker": "Test quadrimestre\\Test quadrimestre.csproj",
-              "ToolTip": "C:\\Users\\Nick\\source\\repos\\Test quadrimestre\\Test quadrimestre\\Test quadrimestre.csproj",
+              "ToolTip": "C:\\Users\\Nick\\Desktop\\Test Quadrimestre TS\\Backend\\Test quadrimestre\\Test quadrimestre.csproj",
               "RelativeToolTip": "Test quadrimestre\\Test quadrimestre.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-03T08:31:11.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T08:31:11.498Z"
             }
           ]
         }
